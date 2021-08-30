@@ -1,6 +1,10 @@
 :root {
+    /* user Popout */
   --user-popout-avatar-size: 95px;
   --user-popout-avatar-position: 10vh; /*higher, more to right, suggested: 1-10 */
+    /* Theme & plugin menu */
+  --background-secondary: rgba(0,0,0,0.3); /*Lower background color in the themes and plugins list*/
+  --background-secondary-alt: rgba(0,0,0,0.3); /*Upper background color in the themes and plugins list*/
 }
 /* 3d Text box+Search bar */
   .scrollableContainer-2NUZem, .da-searchBarComponent, .searchBar-3dMhjb {
