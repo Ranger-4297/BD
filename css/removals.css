@@ -72,3 +72,7 @@
     background-size: var(--channels-width);
     background-position-y: top;
   }
+    /* Settings, mute, deafen */
+  .container-3baos1 > .flex-1O1GKY > :nth-child(n+2):before, .container-1giJp5 > .flex-1O1GKY > :nth-child(n+2):before {
+    display: none;
+  }
