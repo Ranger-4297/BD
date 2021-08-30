@@ -99,3 +99,6 @@
   .avatar-1BDn8e clickable-1bVtEA {
     padding-top: 5px;
   }
+  #search-results .avatar-1BDn8e{
+    display: none;
+  }
