@@ -4,6 +4,7 @@
 @import url("https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css"); /* Makes channel icons cooler depdning on their name */
 @import url("https://ghostmander.github.io/discordfont/DiscordFont.css"); /* Import Discord font */
 @import url('https://Ranger-4297.github.io/BD/css/messages.css');
+
 :root {
 	  /* Accent colours */
   --main-color: #d47d2c;
