@@ -1,0 +1,218 @@
+/* IMPORT CSS */
+@import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css'); /* Horiz server list */
+@import url('https://clearvision.github.io/Addons/speech-bubbles.css'); /* Speech/text bubbles */
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css'); /* Settings icons */
+@import url("https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css"); /* Makes channel icons cooler depdning on their name */
+@import url("https://ghostmander.github.io/discordfont/DiscordFont.css"); /* Import Discord font */
+
+:root {
+	  /* Accent colours */
+  --main-color: #d47d2c;
+  --hover-color: #393046;
+  --success-color: #40ff0b;
+  --danger-color: #982929;
+
+	  /* BACKGROUND */
+  --background-image:  url('https://static2.gamerantimages.com/wordpress/wp-content/uploads/2021/06/doom-eternal-4k-ray-tracing-trailer.jpg');
+  --background-shading: 0%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 110%;
+  --background-saturation: 180%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --home-icon: url('https://static3.thegamerimages.com/wordpress/wp-content/uploads/2020/03/Doom-64-Demon-Keys.jpg');
+  --home-position: center;
+  --home-size: 92px;
+
+	  /* Backdrop settings */
+  --backdrop-overlay: rgba(0,0,0,0.8);
+  --backdrop-image: var(--background-image);
+  --backdrop-position: var(--background-position);
+  --backdrop-size: var(--background-size);
+  --backdrop-repeat: var(--background-repeat);
+  --backdrop-attachment: var(--background-attachment);
+  --backdrop-brightness: var(--background-brightness);
+  --backdrop-contrast: var(--background-contrast);
+  --backdrop-saturation: var(--background-saturation);
+  --backdrop-invert: var(--background-invert);
+  --backdrop-grayscale: var(--background-grayscale);
+  --backdrop-sepia: var(--background-sepia);
+  --backdrop-blur: var(--background-blur);
+
+	  /* User popout */
+  --user-popout-image: url('https://cdn.gamer-network.net/2020/usgamer/doom-eternal-mechs-dragons-concept-art-20200828.jpg');
+  --user-popout-position: bottom right;
+  --user-popout-size: cover;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 0px;
+
+    /* User Modal */
+  --user-modal-image: url('https://media0.giphy.com/media/ZZTL1YLKZ48URCoC6B/giphy.gif');
+  --user-modal-position: center;
+  --user-modal-size: cover;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 143%;
+  --user-modal-saturation: 121%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%;
+  --user-modal-blur: 0px;
+
+    /* channels and shit */
+  --channel-unread: #f9f9f9;
+  --channel-color:  rgba(255,255,255,0.3);
+  --muted-color: rgba(36,36,36,1);
+  --channel-text-selected: #fff;
+
+    /* Status Colours */
+  --online-color: #90b2dc;
+  --idle-color: #654393;
+  --dnd-color: #bf384e;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+
+      /* Other theme addons */
+
+    /* HORIZONTAL SERVER LIST */ 
+  --HSL-server-icon-size: 40px;
+  --HSL-server-spacing: 10px;
+
+    /* messages */
+  --app-radius: 10px;
+  --messages-color: rgba(0,0,0,0.4);
+  --messages-radius: var(--app-radius);
+  --messages-padding: 8px;
+}
+
+          /* Extra CSS */
+
+    /* theme support for Channel Tabs */
+  .channelTabs-favContainer {
+    background: var(--main-transparency) !important;
+  }
+  .titleBar-AC4pGV {
+    background: var(--main-transparency) !important;
+  }
+  .channelTabs-tabContainer {
+    background: var(--main-transparency) !important;
+  }
+
+    /* Titlebar */
+  div[class*="typeWindows-"]::after {
+    content: 'Clearvision - by Ranger';
+    font-weight: 5000;
+    line-height: 31px;
+    color: var(--text-muted);
+    font-family: Discord;
+    font-size: 15px;
+    position: absolute;
+    padding: 0 9px;
+    top: -4.5px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: rgba(var(--black), 0.85);
+    z-index: -1;
+  }
+  .typeWindows-1za-n7 > .wordmark-2iDDfm{
+    opacity: 0;
+  }
+
+    /*text shadow removal*/
+  .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .mainContent-u_9PKf .name-23GUGE,.wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .mainContent-u_9PKf .icon-1DeIlz{
+    filter: none !important;
+    text-shadow: none !important;
+  }
+
+    /* 3d Text box+Search bar */
+  .scrollableContainer-2NUZem, .da-searchBarComponent, .searchBar-3dMhjb {
+    box-shadow: inset 0px 3px 10px black,
+    0px 1px 2px gray !important;
+    border: 1px solid black
+  }
+
+    /*Remove mobile icon*/
+  #app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after{
+    display: none !important;
+  }
+
+    /*Stickers N shit*/
+      /*Make stickers same size as emojis*/
+    .cozy-3raOZG .assetWrapper-3GNt0z {
+      max-width: 48px;
+      max-height: 48px
+    }
+      /*Remove sticker button*/
+    .stickerButton-3OEgwj {
+      display: none
+    }
+      /*Hide stickers tab*/
+    #sticker-picker-tab {
+      display: none
+    }
+      /*Hide disabled emojis*/
+    .emojiItemDisabled-1FvFuF {
+      filter: grayscale(0%);
+    }
+
+    /* Right click menu */
+  .menu-3sdvDG {
+    animation: custom-menu-animation 250ms ease;
+    transform-origin: top;
+  }
+  @keyframes custom-menu-animation {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+  }
+
+    /* Removes settings icons */
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 [style*="color: rgb(255, 255, 255)"].item-PXvHYJ:before {
+    opacity: 0;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 [style*="color: rgb(255, 255, 255)"].item-PXvHYJ:before {
+    opacity: 0;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover:before {
+    opacity: 0;
+  }
