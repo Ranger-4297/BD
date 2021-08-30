@@ -59,3 +59,12 @@
     text-align: center;
     justify-content: center;
   }
+  
+    /* Show message edit time */
+  .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j:hover .timestampInline-yHQ6fX>[aria-label]::after {
+    content:"- " attr(aria-label);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    margin-left: 5px;
+  }
