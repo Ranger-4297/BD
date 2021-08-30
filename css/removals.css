@@ -58,3 +58,17 @@
   .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover:before {
     opacity: 0;
   }
+  
+    /*Banner Fading*/
+  .userPopout-xaxa6l .popoutBanner-19WKGg, /*User image*/
+  .userPopout-xaxa6l .popoutBannerPremium-1n96gg,
+  .container-3w7J-x .bannerImage-3KhIJ6 /*Server banner*/
+  {
+    -webkit-mask: none !important;
+    mask: none;
+  }
+  .bannerImage-3KhIJ6 {
+    width: var(--channels-width);
+    background-size: var(--channels-width);
+    background-position-y: top;
+  }
