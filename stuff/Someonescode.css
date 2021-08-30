@@ -30,12 +30,12 @@
 	--textdarker: 					125,125,125;
 	--textdarkest: 					90,90,90;
 	
-	--background:					url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/_res/background.jpg);
+	--background:					url(https://static2.gamerantimages.com/wordpress/wp-content/uploads/2021/06/doom-eternal-4k-ray-tracing-trailer.jpg);
 	--backgroundposition:			center;
 	--backgroundsize:				cover;
 	--backgroundblur:				unset;
 	
-	--popout:						var(--background);
+	--popout:						url(https://cdn.gamer-network.net/2020/usgamer/doom-eternal-mechs-dragons-concept-art-20200828.jpg);
 	--popoutposition:				var(--backgroundposition);
 	--popoutsize:					var(--backgroundsize);
 	--popoutblur:					var(--backgroundblur);
