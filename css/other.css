@@ -1,6 +1,6 @@
 :root {
   --user-popout-avatar-size: 95px;
-  --user-popout-avatar-position: 5.75vh; /*higher, more to right, suggested: 1-10 */
+  --user-popout-avatar-position: 10vh; /*higher, more to right, suggested: 1-10 */
 }
 /* 3d Text box+Search bar */
   .scrollableContainer-2NUZem, .da-searchBarComponent, .searchBar-3dMhjb {
