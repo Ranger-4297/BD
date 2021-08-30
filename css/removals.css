@@ -1,0 +1,60 @@
+    /*text shadow removal*/
+  .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .mainContent-u_9PKf .name-23GUGE,.wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .mainContent-u_9PKf .icon-1DeIlz{
+    filter: none !important;
+    text-shadow: none !important;
+  }
+    /*Remove mobile icon*/
+  #app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after{
+    display: none !important;
+  }
+    /*Make stickers same size as emojis*/
+  .cozy-3raOZG .assetWrapper-3GNt0z {
+    max-width: 48px;
+    max-height: 48px
+  }
+    /*Remove sticker button*/
+  .stickerButton-3OEgwj {
+    display: none
+  }
+    /*Hide stickers tab*/
+  #sticker-picker-tab {
+    display: none
+  }
+    /*Hide disabled emojis*/
+  .emojiItemDisabled-1FvFuF {
+    filter: grayscale(0%);
+  }
+    /* Removes settings icons */
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 [style*="color: rgb(255, 255, 255)"].item-PXvHYJ:before {
+    opacity: 0;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 [style*="color: rgb(255, 255, 255)"].item-PXvHYJ:before {
+    opacity: 0;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
+    opacity: 0;
+    transition: inherit;
+  }
+  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover:before {
+    opacity: 0;
+  }
