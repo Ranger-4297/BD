@@ -30,7 +30,8 @@
 	--backgroundposition:			center;
 	--backgroundsize:				cover;
 	--backgroundblur:				unset;
-	
+	--backgroundbrightness:			100%
+
 	--popout:						var(--background);
 	--popoutposition:				var(--backgroundposition);
 	--popoutsize:					var(--backgroundsize);
