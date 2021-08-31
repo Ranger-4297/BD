@@ -1,3 +1,6 @@
-:root {
-  --background-image: url('https://images5.alphacoders.com/102/1022203.jpg');
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
