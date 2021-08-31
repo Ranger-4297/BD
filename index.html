@@ -46,7 +46,13 @@
 </body>
 <!-- Footer -->
 <div class="footer">
-  <p style="font-family: Arial;">Made by Ranger#4297 (765316548516380732) ● Last edited @ <span id='date-time'></span></p>
+  <p style="font-family: Arial;">
+    Made by Ranger#4297 (765316548516380732) ● Last edited @
+    <script>
+      var d = new Date();
+      document.getElementsByClassName('footer').innerHTML=d.getFullYear();
+    </script>
+    /p>
   <style>
     .footer {
       position: fixed;
