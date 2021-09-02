@@ -24,11 +24,12 @@
     padding-left: 80px;
   }
     /* Unread */
+    /* Background */
   .recentMentionsPopout-3rCiI6 {
     background: url(/BD/images/PopoutBG.jpg);
     background-position: center;
   }
-      /* Making the popout longer */
+    /* Making the popout longer */
   .recentMentionsPopout-3rCiI6 {
     width: 500px;
   }
@@ -84,25 +85,17 @@
     padding-top: 30px;
     padding-left: 80px;
   }
-
-
-
-
-
-
-/* In progress */
-/*    Notes plugin
-      /* Moves the avatar
+    /*    Notes plugin */
+      /* Moves the avatar */
   .contents-2mQqc9 .avatar-1BDn8e {
     padding-top: 0px;
   }
-  /* Moves the username, timestamp etc to the left 
+  /* Moves the username, timestamp etc to the left */
   .layer-v9HyYc .headerText-3Uvj1Y {
     padding-left: 65px;
   }
-
-    /* Keyword matches plugin 
-      /* Removes the timestamp 
+    /* Keyword matches plugin */
+      /* Removes the timestamp  */
   .focusLock-Ns3yie .timestamp {
     display: none;
-  } */
+  }
