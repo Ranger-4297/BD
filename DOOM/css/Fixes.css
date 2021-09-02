@@ -1,7 +1,7 @@
     /* Pinned messages & recent mentions */
       /* Background */
   .messagesPopoutWrap-1MQ1bW {
-    background: url(/BD/images/PopoutBG.jpg);
+    background: url(/BD/DOOM/images/PopoutBG.jpg);
     background-position: center;
     background-size: cover;
   }
@@ -26,7 +26,7 @@
     /* Unread */
     /* Background */
   .recentMentionsPopout-3rCiI6 {
-    background: url(/BD/images/PopoutBG.jpg);
+    background: url(/BD/DOOM/images/PopoutBG.jpg);
     background-position: center;
   }
     /* Making the popout longer */
