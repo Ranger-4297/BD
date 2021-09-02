@@ -6,11 +6,12 @@
   --background-secondary: rgba(0,0,0,0.3); /*Lower background color in the themes and plugins list*/
   --background-secondary-alt: rgba(0,0,0,0.3); /*Upper background color in the themes and plugins list*/
 }
-/* 3d Text box+Search bar */
+
+    /* 3d Text box+Search bar */
   .scrollableContainer-2NUZem, .da-searchBarComponent, .searchBar-3dMhjb {
     box-shadow: inset 0px 3px 10px black,
     0px 1px 2px gray !important;
-    border: 1px solid black
+    border: 1px solid rgb(233, 228, 228)
   }
 
     /* Right click menu */
@@ -63,7 +64,7 @@
     text-align: center;
     justify-content: center;
   }
-  
+
     /* Show message edit time */
   .cozyMessage-3V1Y8y:not(.systemMessage-1I9LCe) .markup-2BOw-j:hover .timestampInline-yHQ6fX>[aria-label]::after {
     content:"- " attr(aria-label);
@@ -72,6 +73,7 @@
     line-height: 1;
     margin-left: 5px;
   }
+
     /* Channel tabs transparency */
   .channelTabs-favContainer {
     background: transparent !important;
