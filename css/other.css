@@ -72,3 +72,13 @@
     line-height: 1;
     margin-left: 5px;
   }
+    /* Channel tabs transparency */
+  .channelTabs-favContainer {
+    background: transparent !important;
+  }
+  .titleBar-AC4pGV {
+    background: transparent !important;
+  }
+  .channelTabs-tabContainer {
+    background: transparent !important;
+  }
