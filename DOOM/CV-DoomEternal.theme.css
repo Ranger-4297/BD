@@ -22,7 +22,7 @@
   --danger-color: #982929;
 
 	  /* BACKGROUND */
-  --background-image:  url('https://static2.gamerantimages.com/wordpress/wp-content/uploads/2021/06/doom-eternal-4k-ray-tracing-trailer.jpg');
+  --background-image:  url('https://ranger-4297.github.io/BD/DOOM/images/BDBG.jpg');
   --background-shading: 0%;
   --background-position: center;
   --background-size: cover;
@@ -35,14 +35,14 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --home-icon: url('https://static3.thegamerimages.com/wordpress/wp-content/uploads/2020/03/Doom-64-Demon-Keys.jpg');
+  --home-icon: url('https://ranger-4297.github.io/BD/DOOM/images/HomeIcon.jpg');
   --home-position: center;
   --home-size: 92px;
 
 	  /* User popout */
-  --user-popout-image: url('https://cdn.gamer-network.net/2020/usgamer/doom-eternal-mechs-dragons-concept-art-20200828.jpg');
-  --user-popout-position: bottom right;
-  --user-popout-size: cover;
+  --user-popout-image: url('https://ranger-4297.github.io/BD/DOOM/images/UPopoutBG.jpg');
+  --user-popout-position: fit;
+  --user-popout-size: contain;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
   --user-popout-brightness: 100%;
@@ -53,9 +53,9 @@
   --user-popout-blur: 0px;
 
     /* User Modal */
-  --user-modal-image: url('https://media0.giphy.com/media/ZZTL1YLKZ48URCoC6B/giphy.gif');
+  --user-modal-image: url('https://ranger-4297.github.io/BD/DOOM/images/UModalBG.jpg');
   --user-modal-position: center;
-  --user-modal-size: cover;
+  --user-modal-size: contain;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
   --user-modal-brightness: 100%;
