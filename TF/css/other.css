@@ -76,7 +76,7 @@
 
     /* Channel tabs transparency */
   .channelTabs-favContainer {
-    background: transparent !important;
+    background-color: transparent !important;
   }
   .titleBar-AC4pGV {
     background: transparent !important;
