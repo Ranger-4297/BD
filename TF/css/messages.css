@@ -1,7 +1,7 @@
-@import url(/BD/DOOM/css/Fixes.css);
+@import url(/BD/TF/css/Fixes.css);
 
 :root {
-  --red: #b929299f;
+  --blue: #2963b99f;
   }
   .message-2qnXI6 {
     background: var(--red, #111);
@@ -23,14 +23,14 @@
     padding-top: 2px;
   }
   .message-2qnXI6:hover, .message-2qnXI6.selected-2P5D_Z,  .mouse-mode .message-2qnXI6:hover {
-    background: var(--red, #b9292973);
+    background: var(--blue, #b9292973);
   }
   .message-2qnXI6 .avatar-1BDn8e {
     left: -58px;
     top: -10px;
   }
   .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe):hover::before {
-    border-top-color: var(--red #b929299f);
+    border-top-color: var(--blue #b929299f);
   }
   .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe)::before {
     content: "";
@@ -46,7 +46,7 @@
   }
   .message-2qnXI6.mentioned-xhSam7 {
     border-left: 2px solid #faa61a;
-    background: linear-gradient( rgba(250, 97, 26, 0.685),  rgba(250, 134, 26, 0.781)), linear-gradient(var(--quaternary-color, #111), var(--quaternary-color, #111));
+    background: linear-gradient( rgba(26, 123, 250, 0.685),  rgba(26, 67, 250, 0.781)), linear-gradient(var(--quaternary-color, #111), var(--quaternary-color, #111));
   }
   .message-2qnXI6.mentioned-xhSam7.groupStart-23k01U:not(.systemMessage-1I9LCe)::before {
     border-top-color: #faa61a;
@@ -78,6 +78,11 @@
     left: -49px !important;
       padding-top: 10px;
   }
+  .contents-2mQqc9 .avatar-1BDn8e[src*="765316548516380732"] + h2::before{
+    top: -24px;
+    left: -80px;
+    padding-top: 10px;
+  }
   .replyAvatar-1K9Wmr, .replyBadge-r1su3o, .threadMessageAccessoryAvatar-2XWCxw {
     width: 30px;
     height: 30px;
@@ -85,7 +90,7 @@
     padding-left: 4px;
   }
   .message-2qnXI6:hover {
-    background-color: #b92929ce !important;
+    background-color: #2957b9ce !important;
   }
   .repliedMessage-VokQwo::before {
     display: none;
