@@ -76,11 +76,11 @@
 
     /* Channel tabs transparency */
   .channelTabs-favContainer {
-    background-color: transparent !important;
+    background: var(--main-transparency) !important;
   }
   .titleBar-AC4pGV {
-    background: transparent !important;
-  }
+    background: var(--main-transparency) !important;
+  }   
   .channelTabs-tabContainer {
-    background: transparent !important;
+    background: var(--main-transparency) !important;
   }
