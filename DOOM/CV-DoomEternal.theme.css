@@ -40,8 +40,8 @@
   --home-size: 92px;
 
 	  /* User popout */
-  --user-popout-image: url('https://ranger-4297.github.io/BD/DOOM/images/UPopoutBG.jpg');
-  --user-popout-position: fit;
+  --user-popout-image: transparent;
+  --user-popout-position: center;
   --user-popout-size: contain;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
