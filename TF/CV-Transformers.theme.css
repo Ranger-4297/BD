@@ -1,5 +1,5 @@
 /**
-* @name CV DOOM-Eternal
+* @name CV Transformers
 * @author Ranger
 * @version 6.1
 * @description Highly edited Clearvision theme based on DOOM Eternal
@@ -10,13 +10,14 @@
 /* IMPORT CSS */
 @import url('https://clearvision.gitlab.io/v6/main.css'); /* CV import */
 @import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css'); /* Horiz server list */
-@import url("https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css"); /* Makes channel icons cooler depending on their name */
-@import url("https://ghostmander.github.io/discordfont/DiscordFont.css"); /* Import Discord font */
+@import url('https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css'); /* Makes channel icons cooler depending on their name */
+@import url('https://ghostmander.github.io/discordfont/DiscordFont.css'); /* Import Discord font */
+@import url('https://ranger-4297.github.io/BD/TF/addons.css');
 
 :root {
 	  /* Accent colours */
-  --main-color: #d47d2c;
-  --hover-color: #393046;
+  --main-color: #1b6ecc;
+  --hover-color: #6c5ebe9d;
   --success-color: #40ff0b;
   --danger-color: #982929;
 
@@ -39,9 +40,9 @@
   --home-size: 92px;
 
 	  /* User popout */
-  --user-popout-image: url('https://ranger-4297.github.io/BD/DOOM/images/UPopoutBG.jpg');
-  --user-popout-position: fit;
-  --user-popout-size: contain;
+  --user-popout-image: url('https://ranger-4297.github.io/BD/TF/images/UPopoutBG.jpg');
+  --user-popout-position: center;
+  --user-popout-size: 50%;
   --user-popout-repeat: no-repeat;
   --user-popout-attachment: fixed;
   --user-popout-brightness: 100%;
@@ -52,9 +53,9 @@
   --user-popout-blur: 0px;
 
     /* User Modal */
-  --user-modal-image: url('https://ranger-4297.github.io/BD/DOOM/images/UModalBG.jpg');
+  --user-modal-image: url('https://ranger-4297.github.io/BD/TF/images/UModalBG.jpg');
   --user-modal-position: center;
-  --user-modal-size: contain;
+  --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
   --user-modal-attachment: fixed;
   --user-modal-brightness: 100%;
@@ -67,14 +68,14 @@
     /* Messages */
 
     /* channels and shit */
-  --channel-unread: #f9f9f9;
-  --channel-color:  rgba(255,255,255,0.3);
+  --channel-unread: #e03333;
+  --channel-color:  rgba(17, 14, 209, 0.781);
   --muted-color: rgba(36,36,36,1);
-  --channel-text-selected: #fff;
+  --channel-text-selected: rgb(184, 15, 15);
 
     /* Status Colours */
-  --online-color: #90b2dc;
-  --idle-color: #654393;
+  --online-color: #00f55e;
+  --idle-color: #bb882a;
   --dnd-color: #bf384e;
   --streaming-color: #593695;
   --offline-color: #808080;
