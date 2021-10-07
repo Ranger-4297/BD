@@ -91,7 +91,7 @@
     padding-left: 4px;
   }
   .message-2qnXI6:hover {
-    background-color: #b92929ce !important;
+    background-color: --bg1 !important;
   }
   .repliedMessage-VokQwo::before {
     display: none;
