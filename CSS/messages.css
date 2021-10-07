@@ -5,7 +5,7 @@
   --message-hover-bg: #b92929;
   --mention-bg: #3a29b9;
   --mention-hover-bg: #4b29b9;
-  --recentpopout: (var(--background)) /* Please change --background to the variable of your background */
+  --popoutbg: var(--background)/* Please change --background to the variable of your background */
   }
 
   .message-2qnXI6 {
@@ -15,7 +15,8 @@
     box-shadow: 0 4px 10px var(--shadow);
   }
   .cozy-3raOZG.wrapper-2a6GCs {
-    padding-left: 0px;}
+    padding-left: 0px;
+  }
   .message-2qnXI6.systemMessage-1I9LCe {
     margin-left: 80px;
     margin-bottom: 10px;
