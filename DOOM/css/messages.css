@@ -1,10 +1,11 @@
 @import url(/BD/DOOM/css/Fixes.css);
 
 :root {
-  --red: #b929299f;
+  --bg1: #b929299f;
+  --bg2: #b9292973;
   }
   .message-2qnXI6 {
-    background: var(--red, #111);
+    background: var(--bg1, #111);
     margin-left: 80px;
     margin-right: 30px;
     box-shadow: 0 4px 10px var(--shadow);
@@ -23,14 +24,14 @@
     padding-top: 2px;
   }
   .message-2qnXI6:hover, .message-2qnXI6.selected-2P5D_Z,  .mouse-mode .message-2qnXI6:hover {
-    background: var(--red, #b9292973);
+    background: var(--bg1, --bg2);
   }
   .message-2qnXI6 .avatar-1BDn8e {
     left: -58px;
     top: -10px;
   }
   .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe):hover::before {
-    border-top-color: var(--red #b929299f);
+    border-top-color: var(--red -bg2);
   }
   .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe)::before {
     content: "";
