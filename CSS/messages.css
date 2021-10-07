@@ -1,4 +1,4 @@
-@import url(.\fixes.css);
+@import url(CSS\fixes.css);
 
 :root {
   --message-bg: #b92929a7;
@@ -79,7 +79,7 @@
   .avatar-1BDn8e + h2::after {
     bottom: px !important;
     left: -51px !important; 
-      padding-top: 10px;
+    padding-top: 10px;
   }
   #app-mount .avatar-1BDn8e:hover + h2::after {
     bottom: 1px !important;
@@ -89,7 +89,7 @@
   .replyAvatar-1K9Wmr, .replyBadge-r1su3o, .threadMessageAccessoryAvatar-2XWCxw {
     width: 30px;
     height: 30px;
-    border-radius: 100%;
+    border-radius: 40%;
     padding-left: 4px;
   }
   .message-2qnXI6:hover {
@@ -104,3 +104,5 @@
   .avatar-1BDn8e .clickable-1bVtEA {
     padding-top: 5px;
   }
+
+  
