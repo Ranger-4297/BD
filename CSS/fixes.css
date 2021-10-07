@@ -1,7 +1,7 @@
 /* Pinned messages & recent mentions */
       /* Background */
   .messagesPopoutWrap-1MQ1bW {
-    background: --recentpopout;
+    background: --popoutbg;
     background-position: center;
     background-size: cover;
   }
@@ -26,7 +26,7 @@
     /* Unread */
     /* Background */
   .recentMentionsPopout-3rCiI6 {
-    background: --recentpopout ;
+    background: --popoutbg ;
     background-position: center;
   }
     /* Making the popout longer */
@@ -45,7 +45,7 @@
     /* Moves content of the popout down and to the left */
   .recentMentionsPopout-3rCiI6 .messageContent-2qWWxC {
     padding-top: 20px;
-    padding-left: 80px;
+    padding-left: 140px;
   }
     /* Pin popout */
       /* Makes the box longer */
@@ -103,4 +103,23 @@
       /* Box repositioning */
   .focusLock-Ns3yie .content-mK72R6 {
     padding-top: 10px;
+  }
+    .recentMentionsPopout-3rCiI6 .container-1ov-mD {
+    padding-left: 10px;
+    padding-top: 13px;
+  }
+  .repliedMessage-VokQwo .replyBadge-r1su3o {
+    display: none;
+  }
+  .repliedMessage-VokQwo .repliedTextPlaceholder-dmN7D1 {
+    padding-left: 10px;
+  }
+  .recentMentionsPopout-3rCiI6 {
+    width: 560px;
+  }
+  .repliedMessage-VokQwo .replyAvatar-1K9Wmr {
+    padding-left: 80;
+  }
+  .searchResultsWrap-3-pOjs {
+    width: 500px;
   }
