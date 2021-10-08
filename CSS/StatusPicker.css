@@ -1,0 +1,120 @@
+:root {
+    --statuspicker-top: #C7670E;
+    --statuspicker-bottom: #fd7200;
+    --online: rgb(67, 181, 129);
+    --online-sheer: rgba(67, 181, 129, 0.267);
+    /* color for online status */
+    --idle: rgb(250, 166, 26);
+    --idle-sheer: #faa61a44;
+    /* color for idle status */
+    --dnd: rgb(240, 71, 71);
+    --dnd-sheer: rgba(240, 71, 71, 0.267);
+    /* color for dnd status */
+    --offline: rgb(99, 107, 117);
+    --offline-sheer: rgba(99, 107, 117, 0.267);
+    /* color for offline status */
+    --invisi: rgb(116, 127, 141);
+    --invisi-sheer: rgba(116, 127, 141, 0.267);
+}
+
+  /* B. User Status */
+    .layer-v9HyYc[style*="; bottom: 5"][id*="popout_"] {
+    height: fit-content !important;
+    width: fit-content !important;
+    animation: popoutanim-status 300ms cubic-bezier(.4, 0, 0, 1);
+  }
+  .layer-v9HyYc[style*="; bottom: "][id*="popout_"], .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-3sdvDG {
+    height: fit-content !important;
+  }
+  .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-3sdvDG {
+    box-shadow: 0 -2px 15px rgba(0,0,0,0.6);
+  }
+  .layer-v9HyYc[style*="; bottom: "][id*="popout_"] .menu-3sdvDG{
+    bottom: 0px !important;
+    left: -5.5px !important;
+  }
+  #status-picker {
+    width: 235px;
+  }
+  #status-picker .scroller-3BxosC {
+    padding: 0;
+    overflow: visible !important;
+  }
+  #status-picker .item-1tOPte:nth-child(7) > div {
+    position: relative;
+    width: 100%;
+  }
+  #status-picker .item-1tOPte:nth-child(7) .status-1fhblQ, #status-picker .item-1tOPte:nth-child(7) .customText-tY5LJn {
+    margin-left: 10px;
+  }
+  #status-picker .item-1tOPte:nth-child(7) .customStatusWithEmoji-8-XZ8I, #status-picker .item-1tOPte:nth-child(7) .statusItem-33LqPf {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    padding: 0 15px;
+  }
+  .clearStatusButton-1Mxs1q {
+    width: fit-content;
+    margin-left: auto;
+  }
+  .menu-3sdvDG .separator-2I32lJ,
+  #status-picker .item-1tOPte:not(:nth-child(7)) * {
+    display: none;
+  }
+  #status-picker .item-1tOPte {
+    display: inline-block;
+    height: 41px;
+    width: 41px;
+    margin: 8.7px;
+    transition: all .2s ease-in-out;
+  }
+  #status-picker .item-1tOPte:nth-child(1) {
+    background: var(--online) !important;
+    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-online.png') center/90% no-repeat;
+    mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-online.png');
+  }
+  #status-picker .item-1tOPte:nth-child(3) {
+    background: var(--idle) !important;
+    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-Idle.png') center/90% no-repeat;
+    mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-Idle.png');
+  }
+  #status-picker .item-1tOPte:nth-child(4) {
+    background: var(--dnd) !important;
+    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-DND.png') center/90% no-repeat;
+    mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-DND.png');
+  }
+  #status-picker .item-1tOPte:nth-child(5) {
+    background: var(--invisi) !important;
+    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-Invisible.png') center/90% no-repeat;
+    mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-Invisible.png');
+  }
+  #status-picker .item-1tOPte:nth-child(7) {
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    height: fit-content;
+    position: absolute;
+    transform: translateY(-95%);
+    box-sizing: border-box;
+    margin: 0;
+    background: var(--statuspicker-top);
+    background-attachment: fixed;
+    z-index: -1;
+  }
+  #status-picker .item-1GzJrl:nth-child(7) .customStatusContentIcon-2sionu {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  #status-picker .item-1tOPte:not(:nth-child(7)):hover {
+    transform: scale(1.3);
+  }
+  #status-picker .scroller-3BxosC {
+    padding: 0;
+    overflow: visible !important;
+    background-color: var(--statuspicker-bottom);
+  }

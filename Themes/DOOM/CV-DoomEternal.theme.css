@@ -1,0 +1,86 @@
+/**
+* @name CV DOOM-Eternal
+* @author Ranger
+* @version 6.1
+* @description Highly edited Clearvision theme based on DOOM Eternal
+* @source https://github.com/ClearVision/ClearVision-v6
+* @website https://clearvision.gitlab.io
+*/
+
+/* IMPORT CSS */
+@import url('https://clearvision.gitlab.io/v6/main.css'); /* CV import */
+@import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css'); /* Horiz server list */
+@import url("https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css"); /* Makes channel icons cooler depending on their name */
+@import url("https://ghostmander.github.io/discordfont/DiscordFont.css"); /* Import Discord font */
+@import url('https://ranger-4297.github.io/BD/DOOM/addons.css'); /* My custom CSS */
+
+:root {
+	  /* Accent colours */
+  --main-color: #d47d2c;
+  --hover-color: #393046;
+  --success-color: #40ff0b;
+  --danger-color: #982929;
+
+	  /* BACKGROUND */
+  --background-image:  url('https://ranger-4297.github.io/BD/DOOM/images/BDBG.jpg');
+  --background-shading: 0%;
+  --background-position: center;
+  --background-size: cover;
+  --background-repeat: no-repeat;
+  --background-attachment: fixed;
+  --background-brightness: 100%;
+  --background-contrast: 110%;
+  --background-saturation: 180%;
+  --background-grayscale: 0%;
+  --background-invert: 0%;
+  --background-blur: 0px;
+  --background-overlay: rgba(0,0,0,0.6);
+  --home-icon: url('https://ranger-4297.github.io/BD/DOOM/images/HomeIcon.jpg');
+  --home-position: center;
+  --home-size: 92px;
+
+	  /* User popout */
+  --user-popout-image: transparent;
+  --user-popout-position: center;
+  --user-popout-size: contain;
+  --user-popout-repeat: no-repeat;
+  --user-popout-attachment: fixed;
+  --user-popout-brightness: 100%;
+  --user-popout-contrast: 100%;
+  --user-popout-saturation: 100%;
+  --user-popout-grayscale: 0%;
+  --user-popout-invert: 0%;
+  --user-popout-blur: 0px;
+
+    /* User Modal */
+  --user-modal-image: url('https://ranger-4297.github.io/BD/DOOM/images/UModalBG.jpg');
+  --user-modal-position: center;
+  --user-modal-size: contain;
+  --user-modal-repeat: no-repeat;
+  --user-modal-attachment: fixed;
+  --user-modal-brightness: 100%;
+  --user-modal-contrast: 143%;
+  --user-modal-saturation: 121%;
+  --user-modal-grayscale: 0%;
+  --user-modal-invert: 0%
+  --user-modal-blur: 0px;
+
+    /* Messages */
+
+    /* channels and shit */
+  --channel-unread: #f9f9f9;
+  --channel-color:  rgba(255,255,255,0.3);
+  --muted-color: rgba(36,36,36,1);
+  --channel-text-selected: #fff;
+
+    /* Status Colours */
+  --online-color: #90b2dc;
+  --idle-color: #654393;
+  --dnd-color: #bf384e;
+  --streaming-color: #593695;
+  --offline-color: #808080;
+
+    /* HORIZONTAL SERVER LIST */ 
+  --HSL-server-icon-size: 40px;
+  --HSL-server-spacing: 10px;
+}

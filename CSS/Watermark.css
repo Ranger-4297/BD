@@ -1,7 +1,5 @@
-@import url("https://ghostmander.github.io/discordfont/DiscordFont.css"); /* Import Discord font */
-
-div[class*="typeWindows-"]::after {
-    content: 'Damnation - by Ranger';
+  div[class*="typeWindows-"]::after {
+    content: 'Clearvision - by Ranger';
     font-weight: 5000;
     line-height: 31px;
     color: var(--text-muted);
