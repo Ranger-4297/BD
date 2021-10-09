@@ -1,3 +1,6 @@
+@import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css'); /* Horiz server list */
+@import url("https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css"); /* Makes channel icons cooler depending on their name */
+
 :root {
     /* user Popout */
   --user-popout-avatar-size: 95px;
