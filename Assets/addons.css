@@ -1,0 +1,6 @@
+@import url(\Assets\CSS\messages.css); /* Add text message style messages */
+@import url(\Assets\CSS\statuspicker.css); /* Changes the look on the status picker */
+@import url(\Assets\CSS\removals.css); /* Removes useless/un-needed elements and functions */
+@import url(\Assets\CSS\other.css); /* Updates other random elements and features */
+@import url(\Assets\CSS\Watermark.css); /* Credits my edit */
+@import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css); /* Userbackgrounds for those without Nitro */
