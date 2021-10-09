@@ -55,10 +55,13 @@
   }
 
     /* Channel tabs transparency */
-  .channelTabs-favContaine, .titleBar-AC4pGV, .channelTabs-tabContainer {
+  .channelTabs-favContaine, .titleBar-AC4pGV {
     background: transparent !important;
   }
-
+    /* Date viewer transparency */
+  #dv-mount {
+    background: transparent !important;
+  }
 
 		/* Animated channel buttons */
   .iconItem-F7GRxr {
