@@ -1,8 +1,8 @@
 :root {
   --message-bg: #b92929a7;
   --message-hover-bg: #b92929;
-  --mention-bg: #3a29b9;
-  --mention-hover-bg: #4b29b9;
+  --mention-bg: #b95229;
+  --mention-hover-bg: #ff822f;
   }
 
   .chatContent-a9vAAp .message-2qnXI6 {
@@ -22,7 +22,7 @@
     left: -58px;
     top: -3px;
   }
-  .chatContent-a9vAAp .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe)::before {
+  .chatContent-a9vAAp .message-2qnXI6.groupStart-23k01U::before {
     content: "";
     height: 0;
     width: 0;
@@ -31,14 +31,16 @@
     left: 0;
     transform: translate(-50%);
     border: 10px solid transparent;
-    border-top-color: var(--message-hover-bg);
+    border-top-color: var(--message-bg);
     z-index: -1;
   }
-
+  .chatContent-a9vAAp .message-2qnXI6.groupStart-23k01U:hover::before {
+    border-top-color: var(--message-hover-bg);
+  }
   /* Mention color */
   .chatContent-a9vAAp .message-2qnXI6.mentioned-xhSam7 {
     border-left: 4px solid #faa61a;
-    background: linear-gradient( var(--mention-bg),  var(--mention-bg)), linear-gradient(var(--mention-bg, #111), var(--mention-bg, #111));
+    background: var(--mention-bg);
   }
   .chatContent-a9vAAp .message-2qnXI6.mentioned-xhSam7.groupStart-23k01U::before {
     border-top-color: #faa61a;

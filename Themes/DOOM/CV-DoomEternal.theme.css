@@ -61,7 +61,11 @@
   --user-modal-invert: 0%
   --user-modal-blur: 0px;
 
-    /* Messages */
+    /* Message colours */
+  --message-bg: #b92929a7;
+  --message-hover-bg: #b92929;
+  --mention-bg: #b95229;
+  --mention-hover-bg: #ff822f;
 
     /* channels and shit */
   --channel-unread: #f9f9f9;
@@ -75,6 +79,18 @@
   --dnd-color: #bf384e;
   --streaming-color: #593695;
   --offline-color: #808080;
+
+    /* Status picker */
+  --statuspicker-top: #C7670E;
+  --statuspicker-bottom: #fd7200;
+  /* color for online status */
+  --online: var(--online-color);
+  /* color for idle status */
+  --idle: var(--idle-color);
+  /* color for dnd status */
+  --dnd: var(--dnd-color);
+  /* color for invivisble status */
+  --invisi: var(--offline-color);
 
     /* HORIZONTAL SERVER LIST */ 
   --HSL-server-icon-size: 40px;
