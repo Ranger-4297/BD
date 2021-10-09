@@ -1,4 +1,4 @@
-@import url(/CSS/messages.css); /* Add text message style messages */
+@import url(../CSS/messages.css); /* Add text message style messages */
 @import url(/CSS/statuspicker.css); /* Changes the look on the status picker */
 @import url(/CSS/removals.css); /* Removes useless/un-needed elements and functions */
 @import url(/CSS/other.css); /* Updates other random elements and features */
