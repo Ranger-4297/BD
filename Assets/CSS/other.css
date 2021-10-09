@@ -55,7 +55,7 @@
   }
 
     /* Channel tabs transparency */
-  .channelTabs-favContaine, .titleBar-AC4pGV {
+  .channelTabs-selected, .titleBar-AC4pGV, .channelTabs-tabContainer {
     background: transparent !important;
   }
     /* Date viewer transparency */
@@ -89,8 +89,19 @@
     transition-duration: .25s;
   }
 
+/* 
+Link spoof
+*/
+.markup-2BOw-j .spoilerText-3p6IlD {
+  padding: 0%;
+}
 
-  div[class*="typeWindows-"]::after {
+
+
+/* 
+Watermark
+*/
+.div[class*="typeWindows-"]::after {
     content: 'Clearvision - by Ranger';
     font-weight: 5000;
     line-height: 31px;
