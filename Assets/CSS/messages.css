@@ -82,3 +82,8 @@
   .chatContent-a9vAAp .message-2qnXI6.groupStart-23k01U:not(.mentioned-xhSam7):hover::before {
     border-color: transparent var(--message-hover-bg) transparent transparent;
   } 
+
+  /* Message actions */
+  .wrapper-2aW0bm {
+    background-image: var(--background-image);
+  }
