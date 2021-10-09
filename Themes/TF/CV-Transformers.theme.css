@@ -68,6 +68,9 @@
   --message-hover-bg: #1818ca5c;
   --mention-bg: #0000af71;
   --mention-hover-bg: #1100c75c;
+  --mention-indent: #f79d03;
+
+  
   
     /* channels and shit */
   --channel-unread: #e03333ad;
