@@ -1,4 +1,3 @@
-@import url(https://ranger-4297.github.io/BD/CSS/fixes.css);
 
 :root {
   --message-bg: #b92929a7;
@@ -8,37 +7,24 @@
   --popoutbg: var(--background)/* Please change --background to the variable of your background */
   }
 
-  .message-2qnXI6 {
+  .chatContent-a9vAAp .message-2qnXI6 {
     background: var(--message-bg, #111);
     margin-left: 80px;
     margin-right: 30px;
     box-shadow: 0 4px 10px var(--shadow);
   }
-  .cozy-3raOZG.wrapper-2a6GCs {
+  .chatContent-a9vAAp .cozy-3raOZG.wrapper-2a6GCs {
     padding-left: 0px;
   }
-  .message-2qnXI6.systemMessage-1I9LCe {
-    margin-left: 80px;
-    margin-bottom: 10px;
-  }
-  .message-2qnXI6 .contents-2mQqc9, .message-2qnXI6 .container-1ov-mD{
+  .chatContent-a9vAAp .message-2qnXI6 .contents-2mQqc9, .message-2qnXI6 .container-1ov-mD{
     padding: 10px 10px 10px 20px;
     overflow: visible;
   }
-  .message-2qnXI6:not(.groupStart-23k01U) .contents-2mQqc9, .message-2qnXI6:not(.groupStart-23k01U) .container-1ov-mD {
-    padding-top: 2px;
-  }
-  .message-2qnXI6:hover, .message-2qnXI6.selected-2P5D_Z,  .mouse-mode .message-2qnXI6:hover {
-    background: var(--message-bg, --message-hover-bg);
-  }
-  .message-2qnXI6 .avatar-1BDn8e {
+  .chatContent-a9vAAp .message-2qnXI6 .avatar-1BDn8e {
     left: -58px;
-    top: -10px;
+    top: -3px;
   }
-  .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe):hover::before {
-    border-top-color: var(--message-bg --message-hover-bg);
-  }
-  .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe)::before {
+  .chatContent-a9vAAp .message-2qnXI6.groupStart-23k01U:not(.systemMessage-1I9LCe)::before {
     content: "";
     height: 0;
     width: 0;
@@ -47,63 +33,35 @@
     left: 0;
     transform: translate(-50%);
     border: 10px solid transparent;
-    border-top-color: var(--message-hover-bg, #111);
+    border-top-color: var(--message-hover-bg);
     z-index: -1;
   }
-  .message-2qnXI6.mentioned-xhSam7 {
+
+  /* Mention color */
+  .chatContent-a9vAAp .message-2qnXI6.mentioned-xhSam7 {
     border-left: 4px solid #faa61a;
     background: linear-gradient( var(--mention-bg),  var(--mention-bg)), linear-gradient(var(--mention-bg, #111), var(--mention-bg, #111));
   }
-  .message-2qnXI6.mentioned-xhSam7.groupStart-23k01U:not(.systemMessage-1I9LCe)::before {
+  .chatContent-a9vAAp .message-2qnXI6.mentioned-xhSam7.groupStart-23k01U::before {
     border-top-color: #faa61a;
   }
-  .message-2qnXI6.mentioned-xhSam7:hover {
-    background: linear-gradient( var(--mention-hover-bg),  var(--mention-hover-bg)), linear-gradient(var(--mention-hover-bg, #111), var(--mention-hover-bg, #111));
-  }
-  .mentioned-xhSam7:before {
+  
+  .chatContent-a9vAAp .mentioned-xhSam7::before, .message-2qnXI6::before {
     background: transparent;
   }
-  .message-2qnXI6.groupStart-23k01U.cozy-3raOZG .header-23xsNx {
-    padding-bottom: 10px;
-  }
-  .message-2qnXI6.groupStart-23k01U .clickableHeader-2Cygs8 .avatar-1BDn8e {
-    margin-left: -5px;
-    margin-top: -20px;
-  }
-  .message-2qnXI6.groupStart-23k01U ~ .message-2qnXI6:not(.groupStart-23k01U) .container-3FojY8 {
-    padding-top: 5px;
-    padding-bottom: 5px;
-  }
-  .message-2qnXI6:not(.groupStart-23k01U) .timestamp-3ZCmNB {
-    margin-left: -65px;
-  }
-  .avatar-1BDn8e + h2::after {
-    bottom: px !important;
-    left: -51px !important; 
-    padding-top: 10px;
-  }
-  #app-mount .avatar-1BDn8e:hover + h2::after {
-    bottom: 1px !important;
-    left: -49px !important;
-      padding-top: 10px;
-  }
-  .replyAvatar-1K9Wmr, .replyBadge-r1su3o, .threadMessageAccessoryAvatar-2XWCxw {
+  .chatContent-a9vAAp .repliedMessage-VokQwo > img {
     width: 30px;
     height: 30px;
     border-radius: 40%;
     padding-left: 4px;
   }
-  .message-2qnXI6:hover {
-    background-color: var(--message-hover-bg) !important;
-  }
-  .repliedMessage-VokQwo::before {
+  .chatContent-a9vAAp .repliedMessage-VokQwo::before, .cozy-3raOZG.hasThread-2k82W0:after {
     display: none;
   }
-  .wrapper-2aW0bm {
-    background-color: #111;
+  /* Message hovers */
+  .chatContent-a9vAAp .message-2qnXI6:hover {
+    background-color: var(--message-hover-bg) !important;
   }
-  .avatar-1BDn8e .clickable-1bVtEA {
-    padding-top: 5px;
+  .chatContent-a9vAAp .message-2qnXI6.mentioned-xhSam7:hover {
+    background: linear-gradient( var(--mention-hover-bg),  var(--mention-hover-bg)), linear-gradient(var(--mention-hover-bg, #111), var(--mention-hover-bg, #111));
   }
-
-  
