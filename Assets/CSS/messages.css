@@ -1,10 +1,8 @@
-
 :root {
   --message-bg: #b92929a7;
   --message-hover-bg: #b92929;
   --mention-bg: #3a29b9;
   --mention-hover-bg: #4b29b9;
-  --popoutbg: var(--background)/* Please change --background to the variable of your background */
   }
 
   .chatContent-a9vAAp .message-2qnXI6 {
