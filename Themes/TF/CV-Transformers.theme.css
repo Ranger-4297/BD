@@ -9,20 +9,18 @@
 
 /* IMPORT CSS */
 @import url('https://clearvision.gitlab.io/v6/main.css'); /* CV import */
+@import url('https://ranger-4297.github.io/BD/Assets/addons.css');
 @import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css'); /* Horiz server list */
-@import url('https://raw.githack.com/Controlfreak707/Channel-Icons/main/channelicons.theme.css'); /* Makes channel icons cooler depending on their name */
-@import url('https://ghostmander.github.io/discordfont/DiscordFont.css'); /* Import Discord font */
-@import url('https://ranger-4297.github.io/BD/TF/addons.css');
 
 :root {
 	  /* Accent colours */
-  --main-color: #1b6ecc;
+  --main-color: #441bcc;
   --hover-color: #6c5ebe9d;
-  --success-color: #40ff0b;
+  --success-color: #00ff8b;
   --danger-color: #982929;
 
 	  /* BACKGROUND */
-  --background-image:  url('https://ranger-4297.github.io/BD/TF/images/BDBG.jpg');
+  --background-image:  url('https://ranger-4297.github.io/BD/Assets/Images/TF/BDBG.jpg');
   --background-shading: 0%;
   --background-position: center;
   --background-size: cover;
@@ -35,12 +33,12 @@
   --background-invert: 0%;
   --background-blur: 0px;
   --background-overlay: rgba(0,0,0,0.6);
-  --home-icon: url('https://ranger-4297.github.io/BD/DOOM/images/HomeIcon.jpg');
+  --home-icon: url('https://ranger-4297.github.io/BD/Assets/Images/TF/HomeIcon.png');
   --home-position: center;
-  --home-size: 92px;
+  --home-size: 100%;
 
 	  /* User popout */
-  --user-popout-image: url('https://ranger-4297.github.io/BD/TF/images/UPopoutBG.jpg');
+  --user-popout-image: url('https://ranger-4297.github.io/BD/Assets/Images/TF/UPopoutBG.jpg');
   --user-popout-position: center;
   --user-popout-size: 50%;
   --user-popout-repeat: no-repeat;
@@ -53,7 +51,7 @@
   --user-popout-blur: 0px;
 
     /* User Modal */
-  --user-modal-image: url('https://ranger-4297.github.io/BD/TF/images/UModalBG.jpg');
+  --user-modal-image: url('https://ranger-4297.github.io/BD/Assets/Images/TF/UModalBG.jpg');
   --user-modal-position: center;
   --user-modal-size: cover;
   --user-modal-repeat: no-repeat;
@@ -65,11 +63,15 @@
   --user-modal-invert: 0%
   --user-modal-blur: 0px;
 
-    /* Messages */
-
+    /* Message colours */
+  --message-bg: #3529b951;
+  --message-hover-bg: #1818ca5c;
+  --mention-bg: #0000af71;
+  --mention-hover-bg: #1100c75c;
+  
     /* channels and shit */
-  --channel-unread: #e03333;
-  --channel-color:  rgba(17, 14, 209, 0.781);
+  --channel-unread: #e03333ad;
+  --channel-color:  rgba(76, 14, 209, 0.781);
   --muted-color: rgba(36,36,36,1);
   --channel-text-selected: rgb(184, 15, 15);
 
@@ -79,6 +81,18 @@
   --dnd-color: #bf384e;
   --streaming-color: #593695;
   --offline-color: #808080;
+
+    /* Status picker */
+  --statuspicker-top: #C7670E;
+  --statuspicker-bottom: #fd7200;
+  /* color for online status */
+  --online: var(--online-color);
+  /* color for idle status */
+  --idle: var(--idle-color);
+  /* color for dnd status */
+  --dnd: var(--dnd-color);
+  /* color for invivisble status */
+  --invisi: var(--offline-color);
 
     /* HORIZONTAL SERVER LIST */ 
   --HSL-server-icon-size: 40px;
