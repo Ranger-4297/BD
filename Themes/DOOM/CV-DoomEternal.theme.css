@@ -10,7 +10,7 @@
 /* IMPORT CSS */
 @import url('https://clearvision.gitlab.io/v6/main.css'); /* CV import */
 @import url('https://gibbu.github.io/BetterDiscord-Themes/HorizontalServerlist/base.css'); /* Horiz server list */
-
+@import url('https://ranger-4297.github.io/BD/Assets/addons.css');
 :root {
 	  /* Accent colours */
   --main-color: #d47d2c;
