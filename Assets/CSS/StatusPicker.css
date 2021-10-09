@@ -70,23 +70,23 @@
   }
   #status-picker .item-1tOPte:nth-child(1) {
     background: var(--online) !important;
-    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-online.png') center/90% no-repeat;
-    mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-online.png');
+    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Images/Status/Status-online.png') center/90% no-repeat;
+    mask: url('https://ranger-4297.github.io/BD/Assets/Images/Status/Status-online.png');
   }
   #status-picker .item-1tOPte:nth-child(3) {
     background: var(--idle) !important;
-    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-Idle.png') center/90% no-repeat;
-    mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-Idle.png');
+    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Images/Status/Status-Idle.png') center/90% no-repeat;
+    mask: url('https://ranger-4297.github.io/BD/Assets/Images/Status/Status-Idle.png');
   }
   #status-picker .item-1tOPte:nth-child(4) {
     background: var(--dnd) !important;
-    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-DND.png') center/90% no-repeat;
-    mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-DND.png');
+    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Images/Status/Status-DND.png') center/90% no-repeat;
+    mask: url('https://ranger-4297.github.io/BD/Assets/Images/Status/Status-DND.png');
   }
   #status-picker .item-1tOPte:nth-child(5) {
     background: var(--invisi) !important;
-    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-Invisible.png') center/90% no-repeat;
-    mask: url('https://ranger-4297.github.io/BD/Assets/Status/Status-Invisible.png');
+    -webkit-mask: url('https://ranger-4297.github.io/BD/Assets/Images/Status/Status-Invisible.png') center/90% no-repeat;
+    mask: url('https://ranger-4297.github.io/BD/Assets/Images/Status/Status-Invisible.png');
   }
   #status-picker .item-1tOPte:nth-child(7) {
     display: block;
