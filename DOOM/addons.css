@@ -1,6 +1,6 @@
-@import url(/BD/DOOM/css/messages.css); /* Add text message style messages */
-@import url(/BD/DOOM/css/statuspicker.css); /* Changes the look on the status picker */
-@import url(/BD/DOOM/css/removals.css); /* Removes useless/un-needed elements and functions */
-@import url(/BD/DOOM/css/other.css); /* Updates other random elements and features */
-@import url(/BD/DOOM/css/watermark.css); /* Credits my edit */
+@import url(/css/messages.css); /* Add text message style messages */
+@import url(/css/statuspicker.css); /* Changes the look on the status picker */
+@import url(/css/removals.css); /* Removes useless/un-needed elements and functions */
+@import url(/css/other.css); /* Updates other random elements and features */
+@import url(/css/watermark.css); /* Credits my edit */
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css); /* Userbackgrounds for those without Nitro */
