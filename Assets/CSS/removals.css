@@ -1,64 +1,17 @@
-    /*text shadow removal*/
-  .wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .mainContent-u_9PKf .name-23GUGE,.wrapper-2jXpOf.modeUnread-1qO3K1 .content-1x5b-n .mainContent-u_9PKf .icon-1DeIlz{
-    filter: none !important;
-    text-shadow: none !important;
-  }
     /*Remove mobile icon*/
   #app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after{
     display: none !important;
   }
-    /*Make stickers same size as emojis*/
+    /* Minify stickers */
   .cozy-3raOZG .assetWrapper-3GNt0z {
-    max-width: 48px;
-    max-height: 48px
+    max-width: 100px;
+    max-height: 100px
   }
-    /*Remove sticker button*/
-  .stickerButton-3OEgwj {
-    display: none
+  /*Hide sticker and gif button*/
+  .stickerButton-3OEgwj, #sticker-picker-tab {display: none}
+  .buttons-3JBrkn  > .button-38aScr:not(.BD-TeX-plugin-button)  > :not(.translateButton-DhP9x8):not(.quickToggleButton-P2xDh8) {
+    display:none;
   }
-    /*Hide stickers tab*/
-  #sticker-picker-tab {
-    display: none
-  }
-    /*Hide disabled emojis*/
-  .emojiItemDisabled-1FvFuF {
-    filter: grayscale(0%);
-  }
-    /* Removes settings icons */
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 [style*="color: rgb(255, 255, 255)"].item-PXvHYJ:before {
-    opacity: 0;
-  }
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ.selected-3s45Ha:before, .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 [style*="color: rgb(255, 255, 255)"].item-PXvHYJ:before {
-    opacity: 0;
-  }
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
-    opacity: 0;
-    transition: inherit;
-  }
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
-    opacity: 0;
-    transition: inherit;
-  }
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:before {
-    opacity: 0;
-    transition: inherit;
-  }
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
-    opacity: 0;
-    transition: inherit;
-  }
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
-    opacity: 0;
-    transition: inherit;
-  }
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ::before {
-    opacity: 0;
-    transition: inherit;
-  }
-  .standardSidebarView-3F1I7i .sidebar-CFHs9e .side-8zPYf6 .item-PXvHYJ:hover:before {
-    opacity: 0;
-  }
-  
     /*Banner Fading*/
   .userPopout-xaxa6l .popoutBanner-19WKGg, /*User image*/
   .userPopout-xaxa6l .popoutBannerPremium-1n96gg,
@@ -66,11 +19,6 @@
   {
     -webkit-mask: none !important;
     mask: none;
-  }
-  .bannerImage-3KhIJ6 {
-    width: var(--channels-width);
-    background-size: var(--channels-width);
-    background-position-y: top;
   }
     /* Settings, mute, deafen */
   .container-3baos1 > .flex-1O1GKY > :nth-child(n+2):before, .container-1giJp5 > .flex-1O1GKY > :nth-child(n+2):before {
