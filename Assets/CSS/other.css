@@ -55,7 +55,7 @@
   }
 
     /* Channel tabs transparency */
-  .channelTabs-selected, .titleBar-AC4pGV, .channelTabs-tabContainer {
+  .channelTabs-selected, .titleBar-AC4pGV, .channelTabs-tabContainer, .channelTabs-tab {
     background: transparent !important;
   }
     /* Date viewer transparency */
