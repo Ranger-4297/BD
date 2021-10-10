@@ -64,9 +64,13 @@
     border-radius: 100%;
     padding-left: 4px;
   }
-    /* Hide reply symbol */
+  /* Hide reply symbol */
   .chatContent-a9vAAp .repliedMessage-VokQwo::before, .cozy-3raOZG.hasThread-2k82W0:after {
     display: none;
+  }
+  /* Hide weird blue bit */
+  .replying-1x3H0T:before {
+    background: transparent;
   }
 
 
