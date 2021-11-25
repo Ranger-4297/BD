@@ -58,6 +58,23 @@
   .channelTabs-selected, .titleBar-AC4pGV, .channelTabs-tabContainer, .channelTabs-tab {
     background: transparent !important;
   }
+    /* Channel tabs borders */
+  #channelTabs-settingsMenu {
+    top: 3px !important;
+    right: 3px !important;
+    height: 38px !important;
+    width: 38px !important;
+    border-radius: 25% 25% 25% 25% !important;
+  }
+    /* Channel tabs borders */
+  .channelTabs-tab {
+    border-style: solid !important;
+    border-width: 2px !important;
+  }
+    /* Button placement */
+  .channelTabs-closeTab {
+    border-radius: 0% 25% 0% 25% !important;
+  }
     /* Date viewer transparency */
   #dv-mount {
     background: transparent !important;
